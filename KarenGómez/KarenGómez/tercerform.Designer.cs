@@ -30,7 +30,7 @@
         {
             this.label1 = new System.Windows.Forms.Label();
             this.ListBox1 = new System.Windows.Forms.ListBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.MostrarButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -50,20 +50,21 @@
             this.ListBox1.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ListBox1.FormattingEnabled = true;
             this.ListBox1.ItemHeight = 15;
-            this.ListBox1.Location = new System.Drawing.Point(39, 57);
+            this.ListBox1.Location = new System.Drawing.Point(39, 42);
             this.ListBox1.Name = "ListBox1";
-            this.ListBox1.Size = new System.Drawing.Size(210, 409);
+            this.ListBox1.Size = new System.Drawing.Size(210, 454);
             this.ListBox1.TabIndex = 1;
             // 
-            // button1
+            // MostrarButton
             // 
-            this.button1.BackColor = System.Drawing.Color.Tan;
-            this.button1.Location = new System.Drawing.Point(366, 449);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(149, 46);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "Mostrar";
-            this.button1.UseVisualStyleBackColor = false;
+            this.MostrarButton.BackColor = System.Drawing.Color.Tan;
+            this.MostrarButton.Location = new System.Drawing.Point(375, 450);
+            this.MostrarButton.Name = "MostrarButton";
+            this.MostrarButton.Size = new System.Drawing.Size(149, 46);
+            this.MostrarButton.TabIndex = 2;
+            this.MostrarButton.Text = "Mostrar";
+            this.MostrarButton.UseVisualStyleBackColor = false;
+            this.MostrarButton.Click += new System.EventHandler(this.button1_Click);
             // 
             // tercerform
             // 
@@ -71,11 +72,11 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(552, 507);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.MostrarButton);
             this.Controls.Add(this.ListBox1);
             this.Controls.Add(this.label1);
             this.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "tercerform";
             this.Text = "tercerform";
             this.ResumeLayout(false);
@@ -87,6 +88,6 @@
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.ListBox ListBox1;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button MostrarButton;
     }
 }

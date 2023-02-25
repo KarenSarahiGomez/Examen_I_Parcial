@@ -13,6 +13,39 @@ namespace KarenGómez
         double subtotal, desc;
         private async void CalTotalButton_Click(object sender, EventArgs e)
         {
+
+            if (Producto1TextBox.Text == "")
+            {
+                errorProvider1.SetError(Producto1TextBox, "Ingrese un producto");
+                return;
+            }
+            if (Producto2TextBox.Text == "")
+            {
+                errorProvider1.SetError(Producto2TextBox, "Ingrese un producto");
+                return;
+            }
+            if (PrimerTextBox.Text == "")
+            {
+                errorProvider1.SetError(PrimerTextBox, "Seleccione una precio");
+                return;
+            }
+            if (SegundoTextBox.Text == "")
+            {
+                errorProvider1.SetError(SegundoTextBox, "Ingrese un precio");
+                return;
+            }
+            if (Cantidad1textBox.Text == "")
+            {
+                errorProvider1.SetError(Cantidad1textBox, "Ingrese una cantidad");
+                return;
+            }
+            if (Cantidad2textBox.Text == "")
+            {
+                errorProvider1.SetError(Cantidad2textBox, "Ingrese una cantidad");
+                return;
+            }
+            errorProvider1.Clear();
+
             double prod1 = Convert.ToDouble(PrimerTextBox.Text);
             double prod2 = Convert.ToDouble(SegundoTextBox.Text);
             double cant1 = Convert.ToDouble(Cantidad1textBox.Text);
