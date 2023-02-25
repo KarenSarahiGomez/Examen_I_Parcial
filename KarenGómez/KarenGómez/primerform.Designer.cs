@@ -64,7 +64,7 @@
             this.CalcularButton.TabIndex = 2;
             this.CalcularButton.Text = "Calcular";
             this.CalcularButton.UseVisualStyleBackColor = false;
-            this.CalcularButton.Click += new System.EventHandler(this.button1_Click);
+            this.CalcularButton.Click += new System.EventHandler(this.CalcularButton_Click);
             // 
             // primerform
             // 
@@ -76,7 +76,7 @@
             this.Controls.Add(this.ListBox1);
             this.Controls.Add(this.label1);
             this.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "primerform";
             this.Text = "primerform";
             this.ResumeLayout(false);
