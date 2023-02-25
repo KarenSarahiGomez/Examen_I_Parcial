@@ -26,7 +26,7 @@ namespace KarenGómez
             }
             if (PrimerTextBox.Text == "")
             {
-                errorProvider1.SetError(PrimerTextBox, "Seleccione una precio");
+                errorProvider1.SetError(PrimerTextBox, "Ingrese un precio");
                 return;
             }
             if (SegundoTextBox.Text == "")

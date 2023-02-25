@@ -50,9 +50,9 @@
             this.ListBox1.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ListBox1.FormattingEnabled = true;
             this.ListBox1.ItemHeight = 15;
-            this.ListBox1.Location = new System.Drawing.Point(390, 35);
+            this.ListBox1.Location = new System.Drawing.Point(390, 20);
             this.ListBox1.Name = "ListBox1";
-            this.ListBox1.Size = new System.Drawing.Size(198, 319);
+            this.ListBox1.Size = new System.Drawing.Size(198, 394);
             this.ListBox1.TabIndex = 1;
             // 
             // CalcularButton
@@ -70,8 +70,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 19F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(722, 422);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.ClientSize = new System.Drawing.Size(722, 431);
             this.Controls.Add(this.CalcularButton);
             this.Controls.Add(this.ListBox1);
             this.Controls.Add(this.label1);
