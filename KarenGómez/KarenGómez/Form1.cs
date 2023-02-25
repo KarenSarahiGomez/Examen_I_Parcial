@@ -11,20 +11,20 @@ namespace KarenGómez
         }
         private void primerFormularioToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Form1 form1 = new Form1();
-            form1.Show();
+            primerform primerform = new primerform();
+            primerform.Show();
         }
 
         private void segundoFormularioToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Form1 form2 = new Form1();
-            form2.Show();
+            segundoform segundoform = new segundoform();
+            segundoform.Show();
         }
 
         private void tercerFormularioToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Form1 form3 = new Form1();
-            form3.Show();
+            tercerform tercerform = new tercerform();
+            tercerform.Show();
         }
     }
 }
